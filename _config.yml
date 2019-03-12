@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -17,35 +17,37 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
   limit: 9
   exclude:
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # linkedin: your_username
-  # medium: @your_username
+  medium: @tcbyrd
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: _tcbyrd
   # youtube: your_username
   # vk: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Probot
+    web_url: https://probot.github.io
+    image_url: https://probot.github.io/assets/logo.png
 
-  - name: Web design
+  - name: NodeJS
+    web_url: https://nodejs.org/en/
+    image_url: https://nodejs.org/static/images/logo.svg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Video
+    web_url: https://github.com/topics/video
+    image_url: https://user-images.githubusercontent.com/13207348/54175985-1ad5d200-444a-11e9-9e69-f366a1c85d53.png
